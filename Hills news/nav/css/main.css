@@ -27,6 +27,9 @@ section {
     .main-textbox {
         width: 85%;
     }
+    .main-text {
+        font-size: 13px;
+    }
 }
 .main-heading {
     font-size: 30px;
