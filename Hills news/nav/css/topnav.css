@@ -42,10 +42,10 @@ html, body {
 }
 @media all and (max-width: 800px) {
     #menu a {
-        font-size: 30px;
+        font-size: 20px;
     }
     #menu li {
-        width: 50px;
+        width: 30px;
     }
     #menu {
         justify-content: start;
