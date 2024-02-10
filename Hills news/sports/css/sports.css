@@ -5,14 +5,15 @@
 .scores {
     text-align: right;
     letter-spacing: 3px;
+    margin-left: 10px;
 }
 .scores-stats {
     list-style: none;
+    letter-spacing: 1.2px;
 }
 .green-w {
-    float: left;
-    left: 60px;
-    width: 80px;
-    top: 450px;
-    position: absolute;
+    width: 30px;
+    top: 10px;
+    margin-right: 15px;
+    position: relative;
 }
