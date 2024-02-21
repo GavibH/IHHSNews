@@ -1,0 +1,16 @@
+.main-text a {
+    text-decoration: none;
+    color: rgb(43, 58, 199);
+}
+.main-text a:hover {
+    text-decoration: underline;
+}
+.class-council {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.student {
+    line-height: 21px;
+    letter-spacing: 3px;
+    list-style: none;
+}
