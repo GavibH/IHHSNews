@@ -53,9 +53,13 @@ html, body {
     #topbar {
         height: 90px;
     }
-    img {
+    #ihn-image {
         display: none;
     }
+    #hills-logo-image {
+        display: none;
+    }
+    
 }
 #menu a:hover {
     text-decoration: underline;
