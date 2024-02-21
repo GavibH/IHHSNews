@@ -43,15 +43,19 @@ html, body {
 @media all and (max-width: 800px) {
     #menu a {
         font-size: 20px;
+        margin-left: -10em;
+        margin-right: -10em;
+        font-size: 16px;
     }
     #menu li {
-        width: 30px;
+
     }
     #menu {
-        justify-content: start;
+        display: flex;
+        justify-content: center;
     }
     #topbar {
-        height: 90px;
+        height: 60px;
     }
     #ihn-image {
         display: none;
