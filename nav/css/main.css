@@ -5,6 +5,7 @@ html, body {
     background-size: 25%;
     /*background: linear-gradient(rgb(74, 111, 179), rgb(97, 128, 187));*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(16, 35, 143);
 }
 section {
     width: 80vw;
@@ -23,12 +24,16 @@ section {
     border: 3px solid rgb(9, 11, 90);
     box-shadow: 5px 5px black;
 }
+
 @media all and (max-width: 800px) {
     .main-textbox {
         width: 85%;
     }
     .main-text {
         font-size: 13px;
+    }
+    .main-textbox {
+        word-wrap: break-word;
     }
 }
 .main-heading {
@@ -44,19 +49,19 @@ section {
     float: right;
     margin: 9px;
     height: auto;
-    width:20%;
+    width: 20%;
 }
 .main-image-left {
     float: left;
     margin: 9px;
     height: auto;
-    width:20%;
+    width: 20%;
 }
 .main-image-mid {
     float: center;
     margin: 9px;
     height: auto;
-    width:20%;
+    width: 20%;
     border-radius: 10px;
     border: 5px solid rgb(165, 141, 35);
 }
