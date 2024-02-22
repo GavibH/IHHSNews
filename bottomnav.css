@@ -1,0 +1,25 @@
+#bottombar {
+    width: 100%;
+    background-image: url("../images/IHN card.png");
+    box-shadow: 0px 10px rgb(99, 97, 63) inset;
+    letter-spacing: 3px;
+    position: relative;
+}
+#bottom-message {
+    width: 50%;
+    margin: 20px 10px 10px 20px;
+}
+.credit {
+    color: rgb(43, 60, 109);
+    height: 50px;
+    float: right;
+    margin-top: 34px;
+    margin-right: 34px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+@media all and (max-width: 800px) {
+    #bottombar {
+        height: 60px;
+    }
+}
