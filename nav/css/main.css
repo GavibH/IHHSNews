@@ -14,7 +14,7 @@ section {
     position: relative;
     text-align: center;
     margin-top: 50px;
-    width: 60%;
+    width: 60vw;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 100px;
@@ -25,12 +25,30 @@ section {
     box-shadow: 5px 5px black;
 }
 .main-heading {
-    font-size: 30px;
+    font-size: 3vw;
     margin: 0px;
     font-family: "Impact", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.text-crawl {
+    font-size: 2vw;
+    padding: 7px 7px 7px 7px;
+    margin-top: 10px;
+    color: black;
+    background: linear-gradient(90deg, rgb(36, 166, 199) 0%, rgb(49, 189, 199) 51%, rgb(76, 231, 224) 75%);
+    font-weight: 10px;
+    border-top: 4px rgb(0, 0, 0) solid;
+    border-bottom: 4px rgb(0, 0, 0) solid;
+    font-family: "Courier New", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-crawl-container {
+    position: -webkit-sticky;
+    position: sticky;
+    top: -10px;
+    z-index: 5;
+}
 .main-text {
     line-height: 23px;
+    font-size: 1.2vw;
     text-align: center;
     text-indent: 0%;
 }
@@ -50,9 +68,12 @@ section {
     float: center;
     margin: 9px;
     height: auto;
-    width: 20%;
     border-radius: 10px;
     border: 5px solid rgb(165, 141, 35);
+}
+p.main-text > a {
+    text-decoration: underline;
+    color: rgb(91, 93, 219);
 }
 
 @media all and (max-width: 800px) {
