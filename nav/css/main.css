@@ -75,7 +75,23 @@ p.main-text > a {
     text-decoration: underline;
     color: rgb(91, 93, 219);
 }
-
+.heading-ribbon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.3vw;
+    padding: 4px;
+    position: absolute;
+    left: 30px;
+    top: 125px;
+    display: flex; 
+    justify-content: center;
+    transform: rotate(-20deg);
+    align-items: center;
+    border-radius: 50%;
+    background-color: #eb2222;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 @media all and (max-width: 800px) {
     .main-textbox {
         width: 85%;
