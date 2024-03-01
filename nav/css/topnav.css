@@ -75,3 +75,55 @@ html, body {
 #menu li {
     margin: 40px;
 }
+.general-ribbon {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    left: 410px;
+    top: 20px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #eb2222;
+    color: white;
+}
+.students-ribbon {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: 290px;
+    top: 20px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #eb2222;
+    color: white;
+}
+.clubs-ribbon {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    left: 620px;
+    top: 20px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #eb2222;
+    color: white;
+}
+.sports-ribbon {
+    width: 60px;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    right: 530px;
+    top: 20px;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(20deg);
+    background-color: #eb2222;
+    color: white;
+}
