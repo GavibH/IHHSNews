@@ -80,6 +80,7 @@ p.main-text > a {
 }
 .top-main-text {
     font-weight: 10px;
+    font-size: 2vw;
 }
 @media all and (max-width: 800px) {
     .main-textbox {
@@ -93,5 +94,8 @@ p.main-text > a {
     }
     .main-heading {
         font-size: 20px;
+    }
+    .top-main-text {
+        font-size: 4vw;
     }
 }
