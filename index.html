@@ -80,22 +80,6 @@
         </div>
 
         <div class="info-box">
-                
-            <h6 class="main-heading"><hr>TALENT SHOW<hr></h6>
-            <p class="main-text">Go watch (or participate in) the Indian Hills talent show on March 12th at 7pm! Admissions are only $5.
-            </p> 
-        </div>
-
-        <div class="info-box">
-        
-            <h6 class="main-heading"><hr>PRINTERS<hr></h6>
-            <p class="main-text">Sign in to the new uniFLOW SmartClient app on your laptop to link your school account with the new print service for the new printers. To sign in, open the uniFLOW SmartClient app
-                (see the icon on the right). <img src="home/images/printerIcon.png" alt="Icon for uniFLOW SmartClient app" class="main-image-right" style="width:12%;">Then click <em>Continue with Ramapo-Indian Hills</em> and sign into your school account on the next page. Click continue, then close the tab and click "Start" on the uniFLOW app.
-                Now you should be signed into the app.
-            </p>
-        </div>
-
-        <div class="info-box">
         
             <h6 class="main-heading"><hr>DUAL ENROLLMENT<hr></h6>
         <p class="main-text">Dual Enrollment is available to several classes and offers college credits for a fee. These credits will be helpful when choosing
@@ -135,8 +119,34 @@
         </p>
     </div>
 
+    <div class="info-box">
+                
+        <h6 class="main-heading"><hr>SCHOOL CALENDER<hr></h6>
+        <button type="button" class="collapsible">View School Calender</button>
+        <div class="collapsible-content">
+            <p><img src="home/images/YearSchedule.png" alt="School Schedule" style="width: 88%;"></p>
+        </div>
+        </p> 
     </div>
 
+    </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
 
     <div id="bottombar">
         <img id="bottom-message" src="nav/images/bottomMessage.png" alt="Home of the Braves">
